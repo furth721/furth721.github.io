@@ -1,0 +1,81 @@
+/* Body font styling */
+body {
+	font: 20px "Montserrat", sans-serif;
+	line-height: 1.8;
+	color: #f5f6f7;
+}
+
+/* paragraph font size */
+p {
+	font-size: 16px;
+}
+
+/* h4 center */
+h4 {
+	text-align: center;
+}
+
+a {
+	color: #555555;
+}
+
+/* link hover color same as bg-1 color */
+a:hover {
+	color: #05a58d;
+	text-decoration: none;
+}
+/* Icon styling */
+i {
+	font-size: 48px !important;
+	color: white;
+}
+
+/* navbar styling */
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+
+/* navbar link hovering color */
+.navbar-nav li a:hover {
+	color: #05a58d !important;
+}
+
+/* Jumbotron background and font color */
+.bg-1 {
+	background-color: #05a58d; 	/* Green */
+	color: #ffffff;							/* White */
+}
+
+/* About me background and font color */
+.bg-2 {
+	background-color: #909095;	/* Dark Blue */
+	color: #ffffff;
+}
+
+/* Projects background and font color */
+.bg-3 {
+	background-color: #e9e7e9;	/* White */
+	color: #555555;
+}
+
+/* Footer background */
+.bg-4 {
+	background-color: #2f2f2f;
+	color: #ffffff;
+}
+
+/* bg container padding */
+.container-fluid {
+	padding: 70px 70px;
+}
+
+/* helper class for margin top spacing */
+.margin-top {
+	margin-top: 45px;
+}
